@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.artifacts/
+frontend/node_modules/
+frontend/dist/
+data/*.tmp
+data/~$*.xlsx
