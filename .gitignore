@@ -1,0 +1,39 @@
+# Local financial data. These files must never be committed.
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.ofx
+*.qfx
+*.qif
+*.pdf
+
+# Application data, imports, exports, reviews, and generated reports.
+/data/*
+!/data/.gitignore
+/LearningMaterials/*
+!/LearningMaterials/.gitignore
+/.artifacts/
+/TRANSACTION_REVIEW.md
+
+# Local secrets and environment configuration.
+.env
+.env.*
+!.env.example
+
+# Python tooling.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and generated bundles.
+/frontend/node_modules/
+/frontend/dist/
+
+# Office temporary files and application temporary writes.
+~$*
+*.tmp

@@ -1,0 +1,3 @@
+# Keep this directory in fresh clones, but keep every workbook and backup local.
+*
+!.gitignore
